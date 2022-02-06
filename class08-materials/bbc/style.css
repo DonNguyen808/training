@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+
+}
+
+header {
+    height: 55px;
+    background: black;
+    color: white;
+}
+
+nav * {
+    width: 10%;
+    color: white;
+    float: left;
+    display: block;
+}
+
+nav ul {
+    width: 40%;
+}
+
+nav form input{
+    width: 100%;
+}
+
+main + section > section{
+    width: 33.3333%;
+    float:left;
+    height: 500px;
+}
+
+main > section {
+    width: 50%;
+    float: left;
+
+}
+
+main > section section {
+    width: 50%;
+    height: 250px;
+    float:left;
+    border: 1px solid black;
+}
+
+.imageHere {
+    background: url("bbc1.png");
+}
+
+
+
