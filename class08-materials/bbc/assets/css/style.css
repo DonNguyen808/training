@@ -3,17 +3,24 @@
 
 }
 
+.bbcLogo {
+    height: 35px;
+    width: 88px;
+}
+
 header {
     height: 55px;
     background: black;
     color: white;
 }
 
+
 nav * {
     width: 10%;
     color: white;
     float: left;
-    display: block;
+    display: inline-block;
+    text-decoration: none;
 }
 
 nav ul {
@@ -22,6 +29,10 @@ nav ul {
 
 nav form input{
     width: 100%;
+}
+
+main {
+    color: white;
 }
 
 main + section > section{
@@ -33,6 +44,7 @@ main + section > section{
 main > section {
     width: 50%;
     float: left;
+    height: 500px;
 
 }
 
@@ -44,7 +56,35 @@ main > section section {
 }
 
 .imageHere {
-    background: linear-gradient (rgba(0,0,0), rgba(0,0,0.8)) url("images/bbc1.png"), no-repeat;
+    background: url("../images/bbc1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.imageTwo {
+    background: url("../images/bbc2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imageThree {
+    background: url("../images/bbc3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imageFour {
+    background: url("../images/bbc4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imageFive {
+    background: url("../images/bbc5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.blackFont {
+    color: black;
 }
 
 
