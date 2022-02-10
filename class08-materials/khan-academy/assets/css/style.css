@@ -1,26 +1,39 @@
 * {
     box-sizing: border-box;
+    clear: both;
+}
+
+
+/* Header */
+
+header {
+    border: 1px solid black;
+    clear: both;
+
 }
 
 nav {
-    border: 1px solid black;
-    height: 80px;
-    width: 80%
+    border: 1px solid green;
 }
 
-nav *{
-    height: 100px;
-    width: 10%;
-    float:left;
-    
+form {
+    float: left;
 }
 
 ul {
     list-style: none;
-    width: 40%;
+    display: inline-block;
+    
 }
 
-input {
-    height: 20px;
-    width: 55%;
+li {
+    float: left;
+}
+
+
+
+/* Main */
+
+section {
+    float: left;
 }
