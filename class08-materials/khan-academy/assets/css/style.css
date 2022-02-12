@@ -1,39 +1,68 @@
 * {
     box-sizing: border-box;
-    clear: both;
 }
 
 
 /* Header */
-
 header {
-    border: 1px solid black;
-    clear: both;
+    border: 2px solid black;
+    height: 400px;
+    width: 100%;
 
-}
+} 
 
 nav {
     border: 1px solid green;
-}
+    height: 300px;
+    width: 80%;
+    margin-left: 130px;
+} 
 
-form {
-    float: left;
-}
 
-ul {
+
+/* .right {
+
     list-style: none;
-    display: inline-block;
+    float: right;
+    width: 500px;
+
     
 }
 
+
 li {
     float: left;
-}
+    width: 100%;
+
+}  */ */
 
 
 
 /* Main */
 
-section {
-    float: left;
+main {
+    border: 2px solid blue;
+    height: 500px;
+    width: 100%;
 }
+
+
+section {
+    border: 1px solid red;
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+img {
+    height: 496px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
