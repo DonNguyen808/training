@@ -1,34 +1,19 @@
-<!-- wants us to redo the 3 websites
-like how he did it
-write bad code
-have fun with it 
-understand box model
-use float no flex
-level ground 
-do responsive on the new one 
-pushwork if want
-said got from dribble
-
-    he does 1 big container html then do its css then repeat
-    got stuck with the float nav
-    I had to set its width-->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="images/style.css">
+        <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <title>BBC</title>
     </head>
     <body>
         <header>
-            <nav class="center">
-                <img src="assets/images/bbcLogo.png" alt="BBC logo" class="bbcLogo">
-                <a href="#">Sign in</a>
+            <nav>
                 <ul>
+                    <img src="assets/images/bbcLogo.png" alt="BBC logo" class="bbcLogo">
+                    <a href="#">Sign in</a>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">News</a></li>
                     <li><a href="#">Sport</a></li>
@@ -38,42 +23,51 @@ said got from dribble
                     <li><a href="#">Future</a></li>
                     <li><a href="#">Culture</a></li>
                     <li><a href="#">More</a></li>
+                    <form action="">
+                        <input type="text" placeholder="Search">
+                    </form>
                 </ul>
-                <form action="">
-                    <input type="text" placeholder="Search">
-                </form>
             </nav>
         </header>
+
+
+
         <main>
-            <h3 class="blackFont">Welcome to BBC.com</h3>
-            <span class="blackFont">Thursday, 13 August</span>
-            <section class="imageHere">
+            <span>Thursday, 13 August</span>
+            <h3>Welcome to BBC.com</h3>
+            
+
+            <section class="big-image">
                 <h1>Israel and UAE strike historic peace deal</h1>
                 <p>Lorem ipsum dolor sit amet .itis officia ratione sint qui minima Blanditiis.</p>
                 <span>MIDDLE EAST</span>
             </section>
 
-            <section>
-                <section class="imageTwo">
+            <section class="container">
+                <section class="small-image">
                     <h2>Americans, go home: Tension at Canada-US border</h2>
                     <span>CANADA</span>
                 </section>
-                <section class="imageThree">
+                <section class="small-image">
                     <h2>How will the world vaccinate seven billion people?</h2>
                     <span>HEALTH</span>
                 </section>
-                <section class="imageFour">
+                <section class="small-image">
                     <h2>The online 'productivity gyms'</h2>
                     <span>WORKLIFE</span>
                 </section>
-                <section class="imageFive">
+                <section class="small-image">
                     <h2>The folk singer murdered for his music</h2>
                     <span>CULTURE</span>
                 </section>
             </section>
         </main>
+
+
+
+
         <section>
-            <h3>News</h3>
+            <h3 class="left-border">News</h3>
             <section>
                 <img src="assets/images/bbc6.png" alt="Biden and Harris">
                 <h2>Biden and Harris say Trump has left US 'in tatters'</h2>

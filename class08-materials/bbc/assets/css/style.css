@@ -3,6 +3,14 @@
 
 }
 
+
+/* 
+======================
+Header
+======================
+
+*/
+
 .bbcLogo {
     height: 35px;
     width: 88px;
@@ -16,7 +24,7 @@ header {
 
 
 nav * {
-    width: 10%;
+    width: 8.5%;
     color: white;
     float: left;
     display: inline-block;
@@ -24,15 +32,68 @@ nav * {
 }
 
 nav ul {
-    width: 40%;
+    width: 90%;
 }
 
 nav form input{
     width: 100%;
 }
 
+
+
+/* 
+======================
+    Main
+======================
+
+*/
+
 main {
+    height: 700px;
+    border: 2px solid black;
+}
+
+main > section {
+    width: 50%;
+    float: left;
+    height: 500px;
     color: white;
+    text-align: justify;
+}
+
+.big-image {
+    background: url("https://placekitten.com/1000/500");
+    background-repeat: no-repeat;
+}
+
+
+
+/* 
+===================
+    Four divided sections
+===================
+
+*/
+main > section section {
+    width: 50%;
+    height: 250px;
+    float:left;
+}
+
+.small-image {
+    background: url("https://placekitten.com/500/500");
+    background-repeat: no-repeat;
+}
+
+
+/* 
+==================
+    Bottom Section
+==================
+*/
+
+.left-border {
+    border-left: 2px solid red;
 }
 
 main + section > section{
@@ -40,52 +101,3 @@ main + section > section{
     float:left;
     height: 500px;
 }
-
-main > section {
-    width: 50%;
-    float: left;
-    height: 500px;
-
-}
-
-main > section section {
-    width: 50%;
-    height: 250px;
-    float:left;
-    border: 1px solid black;
-}
-
-.imageHere {
-    background: url("../images/bbc1.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    border: 1px solid black;
-}
-
-.imageTwo {
-    background: url("../images/bbc2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.imageThree {
-    background: url("../images/bbc3.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.imageFour {
-    background: url("../images/bbc4.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.imageFive {
-    background: url("../images/bbc5.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.blackFont {
-    color: black;
-    text-align: right;
-}
-
-
