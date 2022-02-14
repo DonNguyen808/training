@@ -5,14 +5,13 @@
 
 /* Header */
 header {
-    border-bottom: 2px solid black;
-    height: 95px;
+    border-bottom: 1px solid gray;
+    height: 50px;
     width: 100%;
 
 } 
 
 nav {
-    border: 1px solid green;
     height: 45px;
     width: 80%;
     margin-left: 130px;
@@ -20,13 +19,18 @@ nav {
 
 .left-nav {
     float: left;
+    text-decoration: none;
     padding-left: 50px;
+}
+
+input {
+    padding: 5px;
 }
 
 .logo {
     height: 30px;
     width: 180px;
-    margin-left: 178px;
+    margin-left: 230px;
 }
 
 
@@ -54,14 +58,12 @@ li >  a {
 
 main {
     padding-top: 10%;
-    border: 2px solid blue;
-    height: 1000px;
+    height: 900px;
     width: 100%;
 }
 
 
 section {
-    border: 1px solid red;
     width: 40%;
     float: left;
     margin: 0 1.5%;
@@ -81,12 +83,13 @@ Right section
 */
 
 h1 {
-    font-size: 80px;
+    font-size: 70px;
 
 }
 
 p {
     font-size: 20px;
+    padding-bottom: 18px;
 
 }
 
