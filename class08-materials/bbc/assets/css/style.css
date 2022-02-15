@@ -11,10 +11,7 @@ Header
 
 */
 
-.bbcLogo {
-    height: 35px;
-    width: 88px;
-}
+
 
 header {
     height: 55px;
@@ -23,21 +20,20 @@ header {
 }
 
 
-nav * {
-    width: 8.5%;
-    color: white;
+
+li {
     float: left;
     display: inline-block;
+
+    width: 8%;
+}
+
+a {
+    color: white;
     text-decoration: none;
 }
 
-nav ul {
-    width: 90%;
-}
 
-nav form input{
-    width: 100%;
-}
 
 
 
@@ -49,8 +45,13 @@ nav form input{
 */
 
 main {
-    height: 700px;
+
     border: 2px solid black;
+    margin: 20px 0;
+}
+
+main > span {
+    margin-left: 1337px;
 }
 
 main > section {
@@ -59,6 +60,7 @@ main > section {
     height: 500px;
     color: white;
     text-align: justify;
+    padding: 5px;
 }
 
 .big-image {
