@@ -3,22 +3,13 @@
 }
 
 
-nav * ,ul *{
-    list-style: none;
-    text-decoration: none;
-    float: left;
-    color: gray;
-    border: none;
-}
-
-ul {
-    width: 20%;
-}
+/* Top */
 
 
 nav, main, aside {
     float: left;
     width: 33.3333%;
+    border: 3px solid blue;
 }
 
 
@@ -29,3 +20,52 @@ div > section {
     border: 1px solid black;
 }
 
+
+
+
+
+/* Nav */
+
+.container {
+    float: right;
+    width: 80%;
+}
+
+nav * ,ul *{
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+    border: none;
+    display: block;
+}
+
+ul {
+    width: 20%;
+}
+
+nav {
+    width: 15%;
+    height: 1000px;
+}
+
+
+
+
+/* Aside */
+
+aside > section {
+    border-bottom: 1px solid gray;
+}
+
+
+/* Bottom Section */
+
+.bottom {
+    clear: both;
+    text-align: center;
+}
+
+section > section {
+    float: left;
+    width: 33.3333%;
+}
