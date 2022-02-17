@@ -18,22 +18,39 @@
 
 /* Top */
 
-div, nav a {
+.container {
     background: #66768A;
     color: white;
 }
 
+
+
 /* Nav */
-
-nav {
-
-}
-
-nav ul, nav img, header > a {
+nav ul {
     float: left;
-    border: 2px solid red;
+    width: 50%;
 }
 
+nav img {
+}
+
+
+
+nav a {
+    color: white;
+}
+
+nav > a {
+    float: right;
+    border: 1px solid white;
+    text-decoration: none;
+    color: #66768A;
+    background: white;
+}
+
+
+
+/* Nav list */
 nav ul, footer ul {
     list-style: none;
 }
@@ -46,19 +63,11 @@ nav ul a, footer ul {
     text-decoration: none;
 }
 
-
-
-header > a {
-    width: 70%;
-}
-
 li {
     float: left;
 }
 
-header > a {
-    text-align: end;
-}
+/* Main */
 
 main {
     clear: both;
@@ -67,6 +76,10 @@ main {
 
 main span {
     display: block;
+}
+
+.video-icon {
+    display: inline;
 }
 
 /* Second */
@@ -83,6 +96,11 @@ main span {
 .third section {
     float: left;
     width: 50%;
+    background: #DBDFE2;
+}
+
+.third span, .bottom span {
+    border: 1px solid grey;
 }
 
 /* Bottom */
@@ -112,9 +130,12 @@ footer, footer a {
 
 .down {
     border-top: 1px solid white;
-    float: left;
     clear: both;
-    width: 50%;
+
+}
+
+.down p {
+    display: inline;
 }
 
 .down img {
