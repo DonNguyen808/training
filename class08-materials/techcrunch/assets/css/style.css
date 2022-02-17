@@ -2,27 +2,27 @@
     box-sizing: border-box;
 }
 
-/* Whole page */
-
-body {
-    width: 100%;
-    height: 100%;
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
 
-.container {
-    float: right;
-    width: 80%;
-    height: 100%;
-    border: 1px solid purple;
+.clear {
+   clear: both;
 }
+
 
 /* Nav */
 
 nav {
-    width: 15%;
-    border: 2px solid red;
+    width: 10%;
     float: left;
-    
+    height: 800px;
 }
 
 nav * ,ul *{
@@ -33,24 +33,25 @@ nav * ,ul *{
     display: block;
 }
 
+/* Main */
 
-/* Top */
-
-.container > div{
-    width: 100%;
-    height: 1000px;
-    border: 1px solid red;
-}
-
-main, aside {
-    float: left;
+main{
     width: 50%;
-    height: 500px;
-    border: 1px solid blue;
+    float: left;
+    
 }
 
+span {
+    display: block;
+}
 
 /* Aside */
+
+aside {
+    width: 40%;
+    float: left;
+    height: 564px;
+}
 
 aside > section {
     border-bottom: 1px solid gray;
@@ -60,16 +61,13 @@ aside > section {
 /* Bottom Section */
 
 
-.bottom {
-    width: 100%;
-    height: 20%;
-    clear: both;
-}
+/* .bottom {
+    border: 2px solid pink;
+} */
 
 section > section {
     float: left;
-    width: 26.61%;
-    border: 1px solid green;
+    width: 30%;
 }
 
 
