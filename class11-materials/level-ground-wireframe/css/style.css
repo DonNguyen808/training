@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/* Top */
+
+div, nav a {
+    background: #66768A;
+    color: white;
+}
+
+/* Nav */
+
+nav {
+
+}
+
+nav ul, nav img, header > a {
+    float: left;
+    border: 2px solid red;
+}
+
+nav ul, footer ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul a, footer ul {
+    text-decoration: none;
+}
+
+
+
+header > a {
+    width: 70%;
+}
+
+li {
+    float: left;
+}
+
+header > a {
+    text-align: end;
+}
+
+main {
+    clear: both;
+    text-align: center;
+}
+
+main span {
+    display: block;
+}
+
+/* Second */
+
+.second, .third, .bottom {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+/* Third */
+
+
+.third section {
+    float: left;
+    width: 50%;
+}
+
+/* Bottom */
+
+
+/* Footer */
+
+footer, footer a {
+    background: #161F2A;
+    color: white;
+}
+
+.left {
+    float: left;
+}
+
+.left li {
+    padding: 10px;
+}
+.right {
+    float: right;
+}
+
+.right span {
+    display: block;
+}
+
+.down {
+    border-top: 1px solid white;
+    float: left;
+    clear: both;
+    width: 50%;
+}
+
+.down img {
+    float: right;
+}
