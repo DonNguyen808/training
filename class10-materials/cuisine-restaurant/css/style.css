@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    border: 1px solid black;
+}
+
+/* Main */
+
+main {
+    border: 1px solid gray;
+}
+
+/* Second */
+.second {
+    border: 1px solid orange;
+}
+
+/* third */
+.third {
+    border: 1px solid blue;
+}
+
+/* Fourth */
+.fourth {
+    border: 1px solid green;
+}
+
+
+/* bottom */
+.bottom {
+    border: 1px solid red;
+}
