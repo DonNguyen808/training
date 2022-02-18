@@ -2,35 +2,110 @@
     box-sizing: border-box;
 }
 
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
 /* Header */
 
-header {
-    border: 1px solid black;
+
+nav * {
+    float: left;
 }
+
+nav img {
+    width: 55%;
+}
+
+
+nav li {
+    padding: 0 10px;
+}
+
 
 /* Main */
 
 main {
-    border: 1px solid gray;
+    clear: both;
+    background-image: url(../food-background.jpg);
+    height: 500px;
+}
+
+main section {
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
 }
 
 /* Second */
 .second {
-    border: 1px solid orange;
+    height: 500px;
+}
+
+.second section {
+    float: right;
+    width: 70%;
 }
 
 /* third */
 .third {
-    border: 1px solid blue;
+    height: 500px;
+    background: #F2F6F7;
+}
+
+.third section {
+    text-align: center;
+}
+
+.third ul {
+    list-style: none;
+    border-bottom: 1px solid gray;
+}
+
+.foodImage img{
+    width: 25%;
+    float: left;
 }
 
 /* Fourth */
 .fourth {
-    border: 1px solid green;
+    clear: both;
+    height: 500px;
 }
 
+.fourth section {
+    text-align: center;
+}
+
+
+.dayTime section {
+    float: left;
+    width: 50%;
+}
+
+.fourth img {
+    clear: both;
+}
 
 /* bottom */
 .bottom {
-    border: 1px solid red;
+    background: #F2F6F7;
+    clear: both;
+    height: 500px;
+    text-align: center;
 }
+
+.bottom img {
+    display: block;
+}
+
