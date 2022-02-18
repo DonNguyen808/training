@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/* Header */
+
+header {
+    background: #F5F9FC;
+}
+
+nav > * {
+    float: left;
+    width: 33.3333%;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Main */
+
+main {
+    background: #F5F9FC;
+}
+
+main section {
+    float: left;
+    width: 50%;
+}
+
+.bottom {
+    width: 100%;
+}
+
+.bottom section {
+    float: left;
+    width: 25%;
+}
+
+
+/* Responsive */
+
+@media all and (max-width: 500px) {
+
+    /* Nav */
+    header {
+        border-bottom: 1px solid grey;
+    }
+
+    nav * {
+        display: none;
+    }
+
+    nav img, .hidden {
+        display: inline;
+    }
+
+    /* Main */
+
+    main section {
+        float: none;
+    }
+
+    .bottom section {
+        width: 50%;
+    }
+
+
+}
