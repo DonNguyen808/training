@@ -27,6 +27,16 @@ nav > * {
     width: 33.3333%;
 }
 
+nav li {
+    float: left;
+    padding: 10px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
 .hidden {
     display: none;
 }
