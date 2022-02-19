@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Header */
+
+header {
+    border: 1px solid black;
+    height: 500px;
+
+}
+
+/* Main */
+
+main {
+    border: 1px solid black;
+    height: 500px;
+
+}
+
+main section {
+    float: left;
+}
+
+.smallBox {
+    border: 1px solid black;
+    height: 200px;
+}
+
+/* Second */
+
+.second {
+    border: 1px solid black;
+    height: 500px;
+
+}
+
+
+/* Third */
+.third {
+    border: 1px solid black;
+    height: 500px;
+
+}
+
+/* Fourth */
+.fourth {
+    border: 1px solid black;
+    height: 500px;
+
+}
+
+/* Bottom */
+.bottom {
+    border: 1px solid black;
+    height: 500px;
+}
