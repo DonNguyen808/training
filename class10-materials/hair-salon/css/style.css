@@ -7,9 +7,17 @@
 
 header {
     border: 1px solid black;
-    height: 500px;
+    height: 60px;
 
 }
+
+
+nav li {
+    float: left;
+    padding: 0 65px;
+}
+
+
 
 /* Main */
 
@@ -19,13 +27,23 @@ main {
 
 }
 
-main section {
-    float: left;
+
+.smallBox{
+    border: 1px solid black;
+    width: 15%;
+    color: white;
+    background: black;
 }
 
-.smallBox {
-    border: 1px solid black;
-    height: 200px;
+.smallBox a {
+    color: black;
+    background: white;
+}
+
+
+.col-3 section {
+    float: left;
+    width: 33.3333%;
 }
 
 /* Second */
@@ -33,8 +51,14 @@ main section {
 .second {
     border: 1px solid black;
     height: 500px;
-
+    clear: both;
 }
+.second section {
+    float: left;
+    width: 50%;
+}
+
+
 
 
 /* Third */
@@ -44,6 +68,12 @@ main section {
 
 }
 
+.third section {
+    float: left;
+    width: 33.3333%;
+}
+
+
 /* Fourth */
 .fourth {
     border: 1px solid black;
@@ -51,8 +81,16 @@ main section {
 
 }
 
+
+
 /* Bottom */
 .bottom {
     border: 1px solid black;
     height: 500px;
+    text-align: center;
+}
+
+.bottom section {
+    width: 50%;
+    margin-left: 500px;
 }
