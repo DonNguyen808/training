@@ -1,6 +1,7 @@
 const eren = document.querySelector('#eren')
 const mikasa = document.querySelector('#mikasa')
 const armin = document.querySelector('#armin')
+const erenSound = document.querySelector('#erenSound')
 
 
 document.querySelector('#erenNext').addEventListener('click', erenNext)
@@ -11,6 +12,8 @@ function erenNext() {
     eren.classList.toggle('hidden')
     mikasa.classList.add('hidden')
     armin.classList.add('hidden')
+    erenSound.classList.toggle('hidden')
+
     
 }
 function mikasaNext() {
@@ -26,14 +29,3 @@ function arminNext() {
     
 }
 
-/*
-i click eren and it shows the image
-
-add event listener to h2 eren
-
-toggle img class 
-
-
-
-
-*/
