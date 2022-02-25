@@ -29,3 +29,20 @@ function arminNext() {
     
 }
 
+// pseudo code
+//readable
+// template string
+
+
+
+
+
+
+document.querySelector('#getWeekday').addEventListener('click', findMusic)
+
+function findMusic() {
+    const d = new Date();
+
+
+}
+
