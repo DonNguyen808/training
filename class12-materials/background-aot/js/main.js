@@ -37,12 +37,47 @@ function arminNext() {
 
 
 
-
+// click
 document.querySelector('#getWeekday').addEventListener('click', findMusic)
 
+// function declaration
 function findMusic() {
-    const d = new Date();
+    // array
+    const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    // built in date
+    const d = new Date("February 27, 2022");
+    // grabs the array number
+    let day = weekday[d.getDay()];
+    // shows it on the dom with template string
+    document.querySelector('#todayIs').innerText = `Today is ${day}. Here is some music for you`
 
+    // switch statement - it will keep going down if dont have break
+    // I keep forgetting to add the # on the queryselector
+    switch(d.getDay()) {
+        case 0:
+            document.querySelector('#sunday').classList.toggle('hidden');
+            // document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/57/d0/1a/57d01ad0f1c0192d3283f5231cc6ec8c.jpg')"
+            // two ways to select the body
+            // does this break the golden rule with css in js?
+            // document.querySelector('body').style.color = "white"
+            // document.body.style.color = "green"
+            // made a function to reuse and looks cleaner
+            makeWhiteFont()
+            break;
+        case 1:
+            document.querySelector('#monday').classList.toggle('hidden');
+            break;
+        case 2:
+            document.querySelector('#tuesday').classList.toggle('hidden');
+            break;
+        case 6:
+            document.querySelector('#saturday').classList.toggle('hidden');
+            break;
+    }
+}
+
+function makeWhiteFont() {
+    document.body.style.color = "white"
 
 }
 
