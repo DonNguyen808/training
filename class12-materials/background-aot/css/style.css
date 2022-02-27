@@ -1,16 +1,46 @@
+* {
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
 html {
-    background: url('https://i.pinimg.com/originals/57/d0/1a/57d01ad0f1c0192d3283f5231cc6ec8c.jpg') no-repeat center center fixed; 
+    /* background: url('https://i.pinimg.com/originals/57/d0/1a/57d01ad0f1c0192d3283f5231cc6ec8c.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 
-    font-family: 'Shizuru', cursive;
+    font-family: 'Quintessential', cursive;
 }
 
 body {
     text-align: center;
     color: black;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+/* header */
+
+header {
+    height: 10%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+.characterContainer {
+    height: 45%;
+    border: 2px solid black;
+}
+
+.character, .characterImage {
+    height: 100%;
+    width: 50%;
+    border: 2px solid blue;
+    float: left;
 }
 
 h1 {
@@ -20,6 +50,47 @@ h1 {
 h2 {
     font-size: 3rem;
 }
+
+/* Four sections */
+
+.images {
+    height: 50%;
+    width: 50%;
+    float: left;
+    border: 2px solid green;
+
+}
+
+/* 
+Bottom
+*/
+
+.bottomContainer {
+    height: 45%;
+    border: 2px solid black;
+    clear: both;
+}
+
+
+.bottomLeft, .middle, .bottomRight {
+    float: left;
+    border: 2px solid red;
+    width: 33.33%;
+    height: 100%;
+}
+
+
+
+.small {
+    height: 33.33%;
+    border: 2px solid orange;
+}
+
+.big {
+    height: 66.66%;
+    border: 2px solid orange;
+}
+
 
 button {
     padding: 20px;

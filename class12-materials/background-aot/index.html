@@ -6,62 +6,84 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Document</title>
     </head>
     <body>
-        <h1>Choose your character</h1>
-
-        <h2 id="erenNext">Eren Yeager</h2>
-        <h2 id="mikasaNext">Mikasa Ackerman</h2>
-        <h2 id="arminNext">Armin Arlert</h2>
-
-        <section>
-            <img id="eren" class="hidden" src="https://media0.giphy.com/media/c2lbMLWfL1mQ8/giphy.gif" alt="Eren">
-            <img id="mikasa" class="hidden" src="https://i.pinimg.com/originals/c9/5f/4f/c95f4fc64f6deaed928c30bab65c79f9.gif" alt="Mikasa">
-            <img id="armin" class="hidden" src="https://c.tenor.com/DkSg5jvsHaAAAAAC/armin-arlert-attack-on-titans.gif" alt="Armin">
-            <figure>
-                <figcaption>Listen to attack on titan soundtrack:</figcaption>
-                <audio
-                    controls
-                    src="https://vgmsite.com/soundtracks/shingeki-no-kyojin-attack-on-titan-original-soundtrack/pvotpevs/2%20The%20Reluctant%20Heroes.mp3">
-                        Your browser does not support the
-                        <code>audio</code> element.
-                </audio>
-            </figure>
+        <header></header>
+        <section class="characterContainer">
+            <section class="character">
+                <h1>Choose your character</h1>
+                <h2 id="erenNext">Eren Yeager</h2>
+                <h2 id="mikasaNext">Mikasa Ackerman</h2>
+                <h2 id="arminNext">Armin Arlert</h2>
+            </section>
+            <section class="characterImage">
+                <section class="images">
+                    <img id="eren" class="hidden" src="https://media0.giphy.com/media/c2lbMLWfL1mQ8/giphy.gif" alt="Eren">
+                </section>
+                <section class="images">
+                    <img id="mikasa" class="hidden" src="https://i.pinimg.com/originals/c9/5f/4f/c95f4fc64f6deaed928c30bab65c79f9.gif" alt="Mikasa">
+                </section>
+                <section class="images">
+                    <img id="armin" class="hidden" src="https://c.tenor.com/DkSg5jvsHaAAAAAC/armin-arlert-attack-on-titans.gif" alt="Armin">
+                </section>
+                <section class="images">
+                    <figure>
+                        <figcaption>Listen to attack on titan soundtrack:</figcaption>
+                        <audio
+                            controls
+                            src="https://vgmsite.com/soundtracks/shingeki-no-kyojin-attack-on-titan-original-soundtrack/pvotpevs/2%20The%20Reluctant%20Heroes.mp3">
+                                Your browser does not support the
+                                <code>audio</code> element.
+                        </audio>
+                    </figure>
+                </section>
+            </section>
         </section>
 
-        <section>
-            <form action="">
-                <input id="character" type="text">
-            </form>
-            <button id="characterCheck">Check</button>
-            <h2 id="showCharacter"></h2>
-        </section>
+        <section class="bottomContainer">
+            <section class="bottomLeft">
+                <section class="small">
+                    <form action="">
+                        <input id="character" type="text">
+                    </form>
+                    <button id="characterCheck">Check</button>
+                    <h2 id="showCharacter"></h2>
+                </section>
+                <section class="big"></section>
+            </section>
 
+            <section class="middle">
+                <section class="big"></section>
+                <section class="small">
+                    <button id="getWeekday">Get today's attack on titan music</button>
+                    <h2 id="todayIs"></h2>
+                </section>
+            </section>
 
+            <section class="bottomRight">
+                <section class="small"></section>
+                <section class="big">
+                    <section id="sunday" class="hidden">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/EtjQVqXUPHo?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
 
-        <section>
-            <button id="getWeekday">Get today's music</button>
-            <h2 id="todayIs"></h2>
-        </section>
+                    <section id="monday" class="hidden">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LKP-vZvjbh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
 
-        <section id="sunday" class="hidden">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/EtjQVqXUPHo?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
+                    <section id="tuesday" class="hidden">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8OkpRK2_gVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
 
-        <section id="monday" class="hidden">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LKP-vZvjbh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-
-        <section id="tuesday" class="hidden">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8OkpRK2_gVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-
-        <section id="saturday" class="hidden">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/EtjQVqXUPHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <section id="saturday" class="hidden">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/EtjQVqXUPHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                </section>
+            </section>
         </section>
 
         
