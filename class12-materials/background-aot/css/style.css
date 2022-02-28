@@ -58,7 +58,15 @@ h2 {
     width: 50%;
     float: left;
     border: 2px solid green;
+    overflow: hidden;
+    background-image: radial-gradient(ellipse at top, white, transparent), url('https://i.pinimg.com/originals/13/a1/01/13a10172127bbf9da50b8ce6db35eeaa.png');
+    background-size: cover;
+    background-position: center;
 
+}
+
+img {
+    max-height: 100%;
 }
 
 /* 
@@ -82,13 +90,15 @@ Bottom
 
 
 .small {
-    height: 33.33%;
+    height: 29.33%;
     border: 2px solid orange;
+    margin: 4%
 }
 
 .big {
-    height: 66.66%;
+    height: 50.66%;
     border: 2px solid orange;
+    margin: 4%;
 }
 
 

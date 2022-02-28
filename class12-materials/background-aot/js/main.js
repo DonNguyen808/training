@@ -85,3 +85,6 @@ function makeWhiteFont() {
 // download audio
 
 // use vh or % on parent containers for responsiveness
+// add gradient to background image to see text better
+//text transofmr vertically
+// add max width to html img and vids to resize em
