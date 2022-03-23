@@ -82,6 +82,23 @@ function makeWhiteFont() {
 }
 
 
+// the check button
+
+// the user inputs a character name
+
+// when they press check
+document.querySelector('#characterCheck').addEventListener('click', characterFunction)
+// it will check for each character name
+function characterFunction() {
+    let characterGrab = document.querySelector('#character').value
+    document.querySelector('#characterDisplayTest').innerText = characterGrab
+
+}
+
+// return back something
+
+
+
 // download audio
 
 // use vh or % on parent containers for responsiveness
